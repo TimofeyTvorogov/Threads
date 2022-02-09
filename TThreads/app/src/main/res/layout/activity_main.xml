@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Решить уравнения вида\nax^2 + bx + c = 0\nbx^2 + сx + d = 0"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:padding="5dp"
+        />
+    <EditText
+        android:id="@+id/ac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="коэфицент a"
+        android:layout_marginVertical="10dp"
+        />
+    <EditText
+        android:id="@+id/bc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="коэфицент b"
+        android:layout_marginVertical="10dp"
+        />
+    <EditText
+        android:id="@+id/cc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="коэфицент c"
+        android:layout_marginVertical="10dp"
+        />
+    <EditText
+        android:id="@+id/dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="коэфицент d"
+        android:layout_marginVertical="10dp"
+        />
+    <Button
+        android:id="@+id/solve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:text="Решить"
+        android:backgroundTint="#00FFB7"
+        android:textColor="#FFFFFF"
+        />
+    <TextView
+        android:id="@+id/solveTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:padding="5dp"
+        android:layout_marginVertical="5dp"
+        />
+    <TextView
+
+        android:id="@+id/solveTV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:padding="5dp"
+        android:layout_marginVertical="20dp"
+        />
+
+
+</LinearLayout>
